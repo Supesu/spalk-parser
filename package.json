@@ -2,7 +2,8 @@
   "name": "parser",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon dist/index.js"
+    "dev": "nodemon dist/index.js",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",

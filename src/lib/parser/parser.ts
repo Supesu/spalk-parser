@@ -1,4 +1,17 @@
+/**
+ * Parser class
+ * @class
+ * @public
+ */
 export class Parser {
+  /**
+   * Parses a packet
+   * @public
+   * @method
+   * @param {Buffer} packet - The packet to parse
+   * @returns {Object} - The parsed packet
+   * @since 22nd August 2023
+   */
   public parsePacket(packet: Buffer) {
     const syncByte = packet[0];
     const transportErrorIndicator = (packet[1] & 0x80) >> 7;
