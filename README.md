@@ -1,34 +1,27 @@
-# Mpeg-ts Parser
+just a quick heads up:
 
-## Description
-a basic mpeg-ts parser for the spalk tech test.
+frontend/ and server/ are a very janky implementation on **how** you could implement it, i just wrote it as a quick proof of concept
+parser/ is a better look at how my code will actually look.
 
-## Getting Started
+BELOW ASSUMES U ARE IN THE SAME DIRECTORY AS THIS README, PLEASE OPEN THREE TERMINALS (ONE FOR EACH SETUP) AND MAKE SURE THE DIRECTORY IS SAME AS THIS README
 
-### Prerequisites
-node: v18.17.1
-npm: 9.6.7
+you will need node & npm
 
-### Installation
+// server setup
+1: cd server
+2: npm install
+3: node index.js
 
-1. navigate to root directory
-2. npm install
-3. npm run build
-4. npm run test
+// parser setup
+1: cd parser
+2: cat README.md (follow steps here)
 
-## Usage
+// frontend setup
+1: cd frontend
+2: npm install
+3: npm run dev
 
-this project is to parse a mpeg-ts (spalks tech challenge), while in the root directory run `cat tests/pass.ts | dist/index.js` for it to verify that a mpeg-ts file is valid
+- then go to localhost:3000 and upload a file
 
-## Testing
-
-To run tests make sure you're in the root directory, then run `npm run test`
-
-## Contact
-
-If you have any questions, issues, or feedback, please contact us at [YOUR CONTACT INFORMATION].
-
-## Acknowledgments
-
-- List any third-party resources that you used in your project.
-- Any acknowledgments or credits you want to give.
+all is working on my end as of 22nd aug
+please contact me for any issues suepsu.dev@gmail.com
