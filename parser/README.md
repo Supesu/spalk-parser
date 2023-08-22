@@ -23,12 +23,3 @@ this project is to parse a mpeg-ts (spalks tech challenge), while in the root di
 ## Testing
 
 To run tests make sure you're in the root directory, then run `npm run test`
-
-## Contact
-
-If you have any questions, issues, or feedback, please contact us at [YOUR CONTACT INFORMATION].
-
-## Acknowledgments
-
-- List any third-party resources that you used in your project.
-- Any acknowledgments or credits you want to give.
