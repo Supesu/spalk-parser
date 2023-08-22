@@ -8,20 +8,31 @@ BELOW ASSUMES U ARE IN THE SAME DIRECTORY AS THIS README, PLEASE OPEN THREE TERM
 you will need node & npm
 
 // server setup
+```
 1: cd server
+
 2: npm install
+
 3: node index.js
+```
 
 // parser setup
+```
 1: cd parser
+
 2: cat README.md (follow steps here)
+```
 
 // frontend setup
+```
 1: cd frontend
-2: npm install
-3: npm run dev
 
-- then go to localhost:3000 and upload a file
+2: npm install
+
+3: npm run dev
+```
+
+- then go to localhost:3000 and upload a .ts file (THERE IS NOTHING CHECKING ITS ACTUALLY A TS FILE)
 
 all is working on my end as of 22nd aug
 please contact me for any issues suepsu.dev@gmail.com
