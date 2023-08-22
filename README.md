@@ -35,4 +35,4 @@ you will need node & npm
 - then go to localhost:3000 and upload a .ts file (THERE IS NOTHING CHECKING ITS ACTUALLY A TS FILE)
 
 all is working on my end as of 22nd aug
-please contact me for any issues suepsu.dev@gmail.com
+please contact me for any issues supesu.dev@gmail.com
